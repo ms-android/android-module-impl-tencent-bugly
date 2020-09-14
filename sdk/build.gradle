@@ -40,3 +40,5 @@ dependencies {
     implementation 'com.tencent.bugly:crashreport:latest.release'
 
 }
+
+apply from:"./mavenpublish_local.gradle"
