@@ -33,7 +33,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation "com.ms:module-super:debug-latest"
+    releaseImplementation "com.ms:android-module-super:latest-RELEASE"
+    debugImplementation "com.ms:android-module-super:latest-DEBUG"
 
 
     // 腾讯Bugly
@@ -41,4 +42,4 @@ dependencies {
 
 }
 
-apply from:"./mavenpublish_local.gradle"
+apply from: "./maven_publish.gradle"
